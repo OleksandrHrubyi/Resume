@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  box-shadow: -6px 4px 12px 2px rgba(0, 0, 0, 0.76);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(169, 191, 231, 0.6);
+  border-radius: 10px;
+}

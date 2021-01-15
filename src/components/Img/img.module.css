@@ -1,0 +1,58 @@
+.title {
+  margin: 0;
+  padding: 15px;
+  font-size: 17px;
+}
+
+.img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.box {
+  display: flex;
+  padding: 10px 0px;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin-bottom: 10px;
+}
+
+.box:last-child {
+  margin-bottom: 0px;
+}
+
+.contact {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact:last-child {
+  margin-bottom: 0px;
+}
+
+.contactBox {
+  display: flex;
+  text-align: center;
+
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin-bottom: 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.skills {
+  border-bottom: 2px solid white;
+  color: #fff;
+}
+
+.list {
+  color: #fff;
+}

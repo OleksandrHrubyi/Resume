@@ -1,0 +1,9 @@
+.section {
+  max-width: 200px;
+  overflow: hidden;
+  padding: 10px;
+  margin-right: 5px;
+  background: rgb(164, 186, 209);
+  border: 2px solid rgb(129, 148, 168);
+  border-radius: 10px;
+}
