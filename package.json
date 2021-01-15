@@ -1,5 +1,5 @@
 {
-  "name": "goit-react-hw-02-phonebook",
+  "name": "resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OleksandrHrubyi/goit-react-hw-02-phonebook.git"
+    "url": "git+https://github.com/OleksandrHrubyi/resume.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OleksandrHrubyi/goit-react-hw-02-phonebook/issues"
+    "url": "https://github.com/OleksandrHrubyi/resume/issues"
   },
-  "homepage": "https://OleksandrHrubyi.github.io/goit-react-hw-02-phonebook/",
+  "homepage": "https://OleksandrHrubyi.github.io/resume/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
