@@ -33,6 +33,10 @@
   margin-bottom: 0px;
 }
 
+.contact:hover {
+  color: rgba(0, 0, 255, 0.479);
+}
+
 .contactBox {
   display: flex;
   text-align: center;

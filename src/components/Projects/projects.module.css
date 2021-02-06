@@ -1,0 +1,22 @@
+.container {
+  border: 2px solid #fff;
+  padding: 21px 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.title {
+  text-align: center;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
+
+.link:hover {
+  color: rgba(0, 0, 255, 0.479);
+}
