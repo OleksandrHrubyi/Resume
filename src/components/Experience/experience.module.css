@@ -6,14 +6,91 @@
 }
 
 .title {
-  text-align: center;
+  color: #1e90ff;
+  font-size: 30px;
+  border-bottom: 3px solid #636363;
+  padding: 15px 0px;
+  margin-bottom: 20px;
 }
 
 .item {
-  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15px;
   border-bottom: 2px solid black;
 }
 
 .item:last-child {
   margin-bottom: 0px;
+}
+
+.subtitle {
+  color: #636363;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 20px;
+  display: block;
+  text-indent: 20px;
+}
+
+.list {
+  padding: 0px 0px 0px 40px;
+}
+
+.jobtitle {
+  margin-bottom: 5px;
+  color: #1e90ff;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.proftitle {
+  display: block;
+  margin-bottom: 5px;
+  color: #474747;
+  font-weight: 900;
+}
+
+.years {
+  color: #636363;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #1e90ff;
+  color: white;
+}
+
+.iconBox {
+  display: flex;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+}
+
+.jobInfo {
+  color: #636363;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.jobBox {
+  padding: 10px 0px;
+}
+
+.yearsEntities {
+  display: block;
 }

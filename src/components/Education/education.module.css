@@ -4,8 +4,12 @@
   padding: 15px 7px;
 }
 
-.title {
-  text-align: center;
+.mainTitle {
+  color: #1e90ff;
+  font-size: 30px;
+  border-bottom: 3px solid #636363;
+  padding: 15px 0px;
+  margin-bottom: 20px;
 }
 
 .item {
@@ -19,4 +23,8 @@
 
 .box {
   margin-bottom: 20px;
+}
+
+.list {
+  padding: 0px 0px 0px 140px;
 }

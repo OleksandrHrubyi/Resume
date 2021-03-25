@@ -1,16 +1,10 @@
 .section {
-  width: 300px;
-  overflow: hidden;
-  margin-right: 5px;
-  background: rgb(164, 186, 209);
-  border: 2px solid rgb(129, 148, 168);
-  border-radius: 10px;
+  max-width: 35%;
+  background-color: #1e90ff;
 }
 
 @media screen and (max-width: 768px) {
   .section {
-    width: 100%;
-    margin-right: 0px;
-    margin-top: 20px;
+    max-width: 100%;
   }
 }

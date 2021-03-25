@@ -1,10 +1,17 @@
+import React from "react";
+import { FormattedMessage } from "react-intl";
 import styles from "../MainInfo/mainInfo.module.css";
 
-function MainInfo({ name }) {
+function MainInfo() {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>{name}</h1>
-    </div>
+    <>
+      <div className={styles.container}>
+        <h1 className={styles.title}>
+          <FormattedMessage id="name" />
+        </h1>
+        <h2 className={styles.subtitle}>Front-end developer</h2>
+      </div>
+    </>
   );
 }
 

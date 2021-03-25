@@ -6,6 +6,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(at top, #ffffff, #808080);
+  padding: 10px 0px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 code {

@@ -1,34 +1,21 @@
+import React from "react";
+import { FormattedMessage } from "react-intl";
+import JobItem from "../JobItem/JobItem";
+import styles from "../Experience/experience.module.css";
 
-import styles from '../Experience/experience.module.css';
-
-function Experience (){
-    return <div className ={styles.container}>
-        <h3 className ={styles.title}>Досвід роботи</h3>
-        <ul>
-            <li className ={styles.item}>
-                <h4>ТОВ «Альпарі»</h4>
-                <h5>Менеджер по торгівлі</h5>
-                <span>2006 - 2014</span>
-            </li>
-            <li className ={styles.item}>
-              <h4>ТОВ «Інтер`єр Груп»</h4>
-                <h5>Менеджер з логістики</h5>
-                <span>2014 - 2015</span>
-
-            </li>
-            <li className ={styles.item}>
-                <h4>ТОВ «Інтер`єр Груп»</h4>
-                <h5>Начальник транспортного відділу</h5>
-                <span>2015 - 2016</span>
-            </li>
-
-            <li className ={styles.item}>
-                <h4>Фізична особа підприємець</h4>
-                <span>2016 - 2020</span>
-            </li>
-        </ul>
+function Experience() {
+  return (
+    <div className={styles.container}>
+      <h3 className={styles.title}>
+        <FormattedMessage id="experienceTitle" />
+      </h3>
+      <span className={styles.subtitle}>
+        {" "}
+        <FormattedMessage id="experienceSubtitle" />
+      </span>
+      <JobItem />
     </div>
+  );
 }
 
-
-export default Experience
+export default Experience;

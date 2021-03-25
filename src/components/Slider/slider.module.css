@@ -1,0 +1,16 @@
+.container {
+  width: 330px;
+}
+
+.imgContainer {
+  width: 100%;
+}
+
+.img {
+  display: block;
+  width: 100%;
+}
+
+.ad {
+  text-align: center;
+}

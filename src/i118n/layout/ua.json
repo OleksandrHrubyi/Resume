@@ -1,0 +1,84 @@
+{
+  "name": "Грубий Олександр Вікторович",
+  "mainInfoAbout": "про мене",
+  "softSkillsTitle": "Особисті якості",
+  "educationTitle": "Освіта",
+  "hardSkillsTitle": "Технічні навички",
+  "ad": "Tут може бути ваша реклама",
+  "experienceTitle": "Досвід роботи",
+  "experienceSubtitle": " Так я cправжній світчер. На протязі усієї своєї кар'єри я завжди замислювався чим займатись в майбутньому і коли я спробував програмування, я зрозумів що хочу займатись цим все своє життя.",
+  "projectTitle": "Проекти",
+  "aboutTitle": "Про мене",
+  "aboutAdditional": "Я великий шанувальник лижного спорту та сноуборду. Також люблю подорожі та веду здоровий спосіб життя. ",
+  "softSkillsList": [
+    "Комунікація",
+    "Самомотивація",
+    "Відповідальність",
+    "Гнучкість",
+    "Робота в команді"
+  ],
+  "hardSkillsList": ["Html", "Css", "Js", "React", "Node.js", "Git"],
+  "Alpari": {
+    "id": 1,
+    "name": "ТОВ «Альпарі»",
+    "prof": "Менеджер по торгівлі",
+    "years": "2006 - 2014"
+  },
+  "Interior": {
+    "id": 2,
+    "name": "ТОВ «Інтер`єр Груп»",
+    "prof": "Менеджер з логістики",
+    "years": "2014 - 2015"
+  },
+  "InteriorHead": {
+    "id": 3,
+    "name": "ТОВ «Інтер`єр Груп»",
+    "prof": "Начальник транспортного відділу",
+    "years": "2015 - 2016"
+  },
+
+  "Entrepreneur": {
+    "id": 4,
+    "name": "Фізична особа підприємець Грубий О.В.",
+    "prof": "Фізична особа підприємець",
+    "years": "з 2016"
+  },
+  "contactsTitle": "Контакти",
+  "university": {
+    "id": 10,
+    "name": "Вінницький інститут економіки тернопільського національного економічного університету",
+    "prof": "Облік і аудит",
+    "years": "2006 – 2011",
+    "defin": "Спеціаліст"
+  },
+  "english": {
+    "id": 11,
+    "name": "Prestige school",
+    "prof": "Англійська мова",
+    "years": "2012",
+    "defin": "Рівень B2"
+  },
+
+  "it": {
+    "id": 12,
+    "name": "Онлайн школа 'GO IT'",
+    "prof": "Frontend Full Stack",
+    "years": "2020 - 2021",
+    "defin": "Full Stack розробник "
+  },
+  "Barbershop": {
+    "id": 20,
+    "name": "Barbershop",
+    "defin": "HTML, SASS, VANILLA JS"
+  },
+  "Marketplace": {
+    "id": 21,
+    "name": "MarketPlace",
+    "defin": "VANILLA JS, HISTORY API, AJAX, REST API, WEBPACK"
+  },
+  "Phonebook": {
+    "id": 22,
+    "name": "Phonebook",
+    "defin": "REACT, REACT-ROUTER, REDUX, REST API, WEBPACK"
+  }
+}

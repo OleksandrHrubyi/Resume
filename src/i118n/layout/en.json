@@ -1,0 +1,90 @@
+{
+  "name": "Hrubyi Oleksandr",
+  "mainInfoAbout": "Hi. Am creative person< ",
+  "softSkillsTitle": "Soft skills",
+  "educationTitle": "Education",
+  "hardSkillsTitle": " Hard skills",
+  "ad": "Here can be your ad.",
+  "experienceTitle": "Experience",
+  "experienceSubtitle": "Throughout my career, I have often thought about what to do in the future, and when I tried programming, I realized that I wanted to do it all my life!",
+  "projectTitle": "Projects",
+  "aboutTitle": "About me",
+  "aboutAdditional": "I am a big fan of skiing and snowboarding. I also like travel and lead a healthy lifestyle. ",
+  "softSkillsList": [
+    "Communication",
+    "Self-motivation",
+    "Responsibility",
+    "Flexibility",
+    "Teamwork"
+  ],
+  "hardSkillsList": ["Html", "Css", "Js", "React", "Node.js", "Git"],
+  "Alpari": {
+    "id": 1,
+    "name": "LLC «Alpari»",
+    "prof": "Trade manager",
+    "years": "2006 - 2014"
+  },
+
+  "Interior": {
+    "id": 2,
+    "name": "LLC «Interior Group»",
+    "prof": "Manager of logistics",
+    "years": "2014 - 2015"
+  },
+
+  "InteriorHead": {
+    "id": 3,
+    "name": "LLC «Interior Group»",
+    "prof": "Head of the transport department",
+    "years": "2015 - 2016"
+  },
+
+  "Entrepreneur": {
+    "id": 4,
+    "name": "Entrepreneur",
+    "prof": "Work for myself",
+    "years": "since 2016"
+  },
+
+  "contactsTitle": "Contacts",
+  "university": {
+    "id": 10,
+    "name": "Vinnytsia Educative and Research Institute of West Ukrainian National University",
+    "prof": "«Accounting and audit»",
+    "years": "2006 – 2011",
+    "defin": "Specialist"
+  },
+  "english": {
+    "id": 11,
+    "name": "Prestige school",
+    "prof": "English language",
+    "years": "2012",
+    "defin": "Level: B2"
+  },
+
+  "it": {
+    "id": 12,
+    "name": "School 'GO IT'",
+    "prof": "Frontend Full Stack",
+    "years": "2020 - 2021",
+    "defin": "Full Stack Developer"
+  },
+  "Barbershop": {
+    "id": 20,
+    "name": "Barbershop",
+    "link": "https://oleksandrhrubyi.github.io/project_barbershop/",
+    "defin": "HTML, SASS, VANILLA JS"
+  },
+  "Marketplace": {
+    "id": 21,
+    "name": "MarketPlace",
+    "link": "/",
+    "defin": "VANILLA JS, HISTORY API, AJAX, REST API, WEBPACK"
+  },
+  "Phonebook": {
+    "id": 22,
+    "name": "Phonebook",
+    "link": "https://oleksandrhrubyi.github.io/goit-react-hw-08-phonebook/",
+    "defin": "REACT, REACT-ROUTER, REDUX, REST API, WEBPACK"
+  }
+}

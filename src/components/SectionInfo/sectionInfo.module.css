@@ -1,5 +1,10 @@
 .container {
-  border: 2px solid rgb(129, 148, 168);
-  border-radius: 10px;
-  padding: 10px;
+  padding: 10px 40px;
+  border-bottom: 20px solid #1e90ff;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 12px;
+  }
 }

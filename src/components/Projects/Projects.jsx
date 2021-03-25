@@ -1,22 +1,27 @@
+import { FormattedMessage } from "react-intl";
+import { MyProjects } from "../../data";
+
 import styles from "../Projects/projects.module.css";
-const barb = "https://oleksandrhrubyi.github.io/project_barbershop/";
-const marketplace = "https://titoffroma.github.io/OLX-group-project/";
 
 function Projects() {
   return (
     <div className={styles.container}>
-      <h3 className={styles.title}>Проекти</h3>
-      <ul>
-        <li className={styles.item}>
-          <a className={styles.link} href={barb}>
-            BarberShop
-          </a>
-        </li>
-        <li className={styles.item}>
-          <a className={styles.link} href={marketplace}>
-            Marketplace{" "}
-          </a>
-        </li>
+      <h3 className={styles.mainTitle}>
+        <FormattedMessage id="projectTitle" />
+      </h3>
+      <ul className={styles.list}>
+        {Object.keys(MyProjects).map((project) => {
+          return (
+            <li key={project} className={styles.item}>
+              <a className={styles.link} href={MyProjects[project]}>
+                <span className={styles.projectTitle}>{project}</span>
+              </a>
+              <h4 className={styles.subtitle}>
+                <FormattedMessage id={`${project}.defin`} />
+              </h4>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

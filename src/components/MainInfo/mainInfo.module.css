@@ -1,9 +1,18 @@
 .container {
-  text-align: center;
+  padding: 10px;
   margin-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+  border-bottom: 5px solid #636363;
 }
 
 .title {
-  font-size: 20px;
+  font-size: 35px;
+  color: #636363;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 25px;
+  color: #1e90ff;
   font-weight: 700;
 }
