@@ -6,10 +6,10 @@
   "hardSkillsTitle": " Hard skills",
   "ad": "Here can be your ad.",
   "experienceTitle": "Experience",
-  "experienceSubtitle": "Throughout my career, I have often thought about what to do in the future, and when I tried programming, I realized that I wanted to do it all my life!",
+  "experienceSubtitle": "Throughout my career, I have often thought about what to do in the future, and when I tried programming, I realized that I want to do it all my life!",
   "projectTitle": "Projects",
   "aboutTitle": "About me",
-  "aboutAdditional": "I am a big fan of skiing and snowboarding. I also like travel and lead a healthy lifestyle. ",
+  "aboutAdditional": "I am a big fan of skiing and snowboarding. I also like travel and lead a healthy lifestyle. Really want to join a cool team to create modern projects.",
   "softSkillsList": [
     "Communication",
     "Self-motivation",
@@ -56,10 +56,10 @@
   },
   "english": {
     "id": 11,
-    "name": "Prestige school",
+    "name": "'Prestige school'",
     "prof": "English language",
     "years": "2012",
-    "defin": "Level: B2"
+    "defin": "Level: B1"
   },
 
   "it": {
@@ -84,7 +84,7 @@
   "Phonebook": {
     "id": 22,
     "name": "Phonebook",
-    "link": "https://oleksandrhrubyi.github.io/goit-react-hw-08-phonebook/",
+    "link": "https://oleksandrhrubyi.github.io/goit-react-hw-09-phonebook/",
     "defin": "REACT, REACT-ROUTER, REDUX, REST API, WEBPACK"
   }
 }

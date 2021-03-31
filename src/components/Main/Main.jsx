@@ -1,7 +1,6 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 import messages from "../../i118n/layout/en.json";
-//import SimpleSlider from "../Slider/Slider";
 import myImg from "../../image/myphoto.jpeg";
 import styles from "./main.module.css";
 import gitIcon from "../../image/github.svg";
@@ -18,7 +17,6 @@ function Main() {
     <>
       <div className={styles.containerImg}>
         <img className={styles.portfolio} src={myImg} alt="portfolio" />
-        {/* <SimpleSlider myPhoto={myImg} alt="my photo" /> */}
       </div>
       <div className={styles.mainContainer}>
         <section className={styles.box}>

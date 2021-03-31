@@ -5,7 +5,7 @@ function TextInfo() {
   return (
     <div className={styles.textContainer}>
       <h3 className={styles.title}>
-        <FormattedMessage id="mainInfoAbout" />
+        <FormattedMessage id="experienceSubtitle" />
       </h3>
     </div>
   );

@@ -9,10 +9,6 @@ function Experience() {
       <h3 className={styles.title}>
         <FormattedMessage id="experienceTitle" />
       </h3>
-      <span className={styles.subtitle}>
-        {" "}
-        <FormattedMessage id="experienceSubtitle" />
-      </span>
       <JobItem />
     </div>
   );
