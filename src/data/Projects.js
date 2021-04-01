@@ -1,5 +1,5 @@
 const MyProjects = {
-  Barbershop: "https://oleksandrhrubyi.github.io/project_barbershop/",
+  Barbershop: "https://barb-shop.netlify.app",
   Marketplace: "https://trade-market.netlify.app",
   Phonebook: "https://ph-book.netlify.app",
 };
