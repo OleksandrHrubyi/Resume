@@ -1,7 +1,7 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 import messages from "../../i118n/layout/en.json";
-import myImg from "../../image/myphoto.jpeg";
+import myImg from "../../image/myphoto.jpg";
 import styles from "./main.module.css";
 import gitIcon from "../../image/github.svg";
 import linkedinIcon from "../../image/linkedin.svg";

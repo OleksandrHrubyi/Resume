@@ -53,9 +53,9 @@
   },
   "english": {
     "id": 11,
-    "name": "'Prestige school'",
+    "name": "'Prestige school', 'EnglishDom'",
     "prof": "Англійська мова",
-    "years": "2012",
+    "years": "2012, 2021",
     "defin": "Рівень B1"
   },
 
