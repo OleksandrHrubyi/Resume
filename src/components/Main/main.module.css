@@ -51,12 +51,13 @@
 }
 
 .item:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .skills {
   color: #fff;
   font-size: 20px;
+  font-weight: 600;
 }
 
 .containerImg {
