@@ -60,9 +60,10 @@
 }
 
 .containerImg {
+  padding: 7px;
   height: auto;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.705);
+  background-color: #fff;
 }
 
 .portfolio {
@@ -71,6 +72,7 @@
   height: auto;
   object-fit: cover;
   background-position: center;
+  border-radius: 10px;
 }
 
 .mainContainer {
@@ -110,7 +112,7 @@
 .contactLinkList {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -121,6 +123,11 @@
   fill: #1e90ff;
   transform: scale(1);
 }
+
+.contactsLink:not(:last-child) {
+  margin-right: 20px;
+}
+
 .contactsLink:hover {
   background-color: rgba(0, 0, 255, 1);
   transform: scale(1.03);

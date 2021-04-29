@@ -69,16 +69,19 @@
   "Barbershop": {
     "id": 20,
     "name": "Barbershop",
-    "defin": "HTML, SASS, VANILLA JS"
+    "defin": "HTML, SASS, VANILLA JS",
+    "descr": "Семантична цільова сторінка з повністю адаптивним дизайном."
   },
   "Marketplace": {
     "id": 21,
     "name": "MarketPlace",
-    "defin": "VANILLA JS, HISTORY API, AJAX, REST API, WEBPACK"
+    "defin": "VANILLA JS, HISTORY API, AJAX, REST API, WEBPACK",
+    "descr": "Сучасний та гнучкий Інтернет-ринок створений так, щоб чудово виглядати на будь-якому пристрої незалежно від розміру екрану."
   },
   "Phonebook": {
     "id": 22,
     "name": "Phonebook",
-    "defin": "REACT, REACT-ROUTER, REDUX, REST API, WEBPACK"
+    "defin": "REACT, REACT-ROUTER, REDUX, REST API, WEBPACK",
+    "descr": "Ця програма є простим сховищем усіх ваших контактів та їх телефонних номерів."
   }
 }

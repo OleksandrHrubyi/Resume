@@ -19,6 +19,9 @@ function Projects() {
               <h4 className={styles.subtitle}>
                 <FormattedMessage id={`${project}.defin`} />
               </h4>
+              <p>
+                <FormattedMessage id={`${project}.descr`} />
+              </p>
             </li>
           );
         })}

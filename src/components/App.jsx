@@ -29,13 +29,13 @@ export default function App() {
                     <TextInfo />
                   </section>
                   <section>
+                    <Projects />
+                  </section>
+                  <section>
                     <Experience />
                   </section>
                   <section>
                     <Education />
-                  </section>
-                  <section>
-                    <Projects />
                   </section>
                 </main>
               </SectionInfo>
@@ -49,4 +49,3 @@ export default function App() {
     </>
   );
 }
-

@@ -73,18 +73,21 @@
     "id": 20,
     "name": "Barbershop",
     "link": "https://oleksandrhrubyi.github.io/project_barbershop/",
-    "defin": "HTML, SASS, VANILLA JS"
+    "defin": "HTML, SASS, VANILLA JS",
+    "descr": "A semantic landing page with a fully responsive design."
   },
   "Marketplace": {
     "id": 21,
     "name": "MarketPlace",
     "link": "/",
-    "defin": "VANILLA JS, HISTORY API, AJAX, REST API, WEBPACK"
+    "defin": "VANILLA JS, HISTORY API, AJAX, REST API, WEBPACK",
+    "descr": "Modern and flexible online market  was built to look great on any device regardless of the screen size."
   },
   "Phonebook": {
     "id": 22,
     "name": "Phonebook",
     "link": "https://oleksandrhrubyi.github.io/goit-react-hw-09-phonebook/",
-    "defin": "REACT, REACT-ROUTER, REDUX, REST API, WEBPACK"
+    "defin": "REACT, REACT-ROUTER, REDUX, REST API, WEBPACK",
+    "descr": "This App is a simple repository of all of your contacts and their phone numbers."
   }
 }
