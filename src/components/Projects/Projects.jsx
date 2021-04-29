@@ -19,7 +19,7 @@ function Projects() {
               <h4 className={styles.subtitle}>
                 <FormattedMessage id={`${project}.defin`} />
               </h4>
-              <p>
+              <p className={styles.description}>
                 <FormattedMessage id={`${project}.descr`} />
               </p>
             </li>
