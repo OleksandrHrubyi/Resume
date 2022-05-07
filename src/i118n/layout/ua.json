@@ -17,7 +17,7 @@
     "Гнучкість",
     "Робота в команді"
   ],
-  "hardSkillsList": ["Html", "Css", "Js", "React", "Node.js", "Git"],
+  "hardSkillsList": ["HTML", "CSS", "JS", "Vue", "Nuxt", "React", "Node.js", "GIT"],
   "Alpari": {
     "id": 1,
     "name": "ТОВ «Альпарі»",
@@ -40,8 +40,15 @@
   "Entrepreneur": {
     "id": 4,
     "name": "Фізична особа підприємець Грубий О.В.",
-    "prof": "Фізична особа підприємець",
+    "prof": "Розробляв та підтримував сайт ",
     "years": "з 2016"
+  },
+  "WebPortTechnology": {
+    "id": 5,
+    "name": "WebPortTechnology",
+    "prof": "Frontend Developer. Я працюю в компанії яка займається розробкою та підтримкою криптобірж. Зараз я приймаю участь в  підтримці 10  бірж.",
+    "years": "З 03.2021"
+
   },
   "contactsTitle": "Контакти",
   "university": {
@@ -56,7 +63,7 @@
     "name": "'Prestige school', 'EnglishDom'",
     "prof": "Англійська мова",
     "years": "2012, 2021",
-    "defin": "Рівень B1"
+    "defin": "Рівень B2"
   },
 
   "it": {

@@ -8,7 +8,7 @@ import MainInfo from "../components/MainInfo/MainInfo";
 import SectionInfo from "../components/SectionInfo/SectionInfo";
 import Experience from "../components/Experience/Experience";
 import Education from "../components/Education/Education";
-import Projects from "../components/Projects/Projects";
+// import Projects from "../components/Projects/Projects";
 import Header from "../components/Header/Header";
 import TextInfo from "../components/Textinfo/TextInfo";
 
@@ -28,9 +28,9 @@ export default function App() {
                   <section>
                     <TextInfo />
                   </section>
-                  <section>
+                  {/* <section>
                     <Projects />
-                  </section>
+                  </section> */}
                   <section>
                     <Experience />
                   </section>

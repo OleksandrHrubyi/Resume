@@ -73,6 +73,10 @@
   display: block;
 }
 
+.jobLink {
+  color: #1e90ff;
+}
+
 @media screen and (max-width: 768px) {
   .mark {
     display: none;

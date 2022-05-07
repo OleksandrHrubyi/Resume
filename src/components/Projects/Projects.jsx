@@ -13,7 +13,7 @@ function Projects() {
         {Object.keys(MyProjects).map((project) => {
           return (
             <li key={project} className={styles.item}>
-              <a className={styles.link} href={MyProjects[project]}>
+              <a className={styles.link} href={MyProjects[project]} target="_blank" rel="noreferrer">
                 <span className={styles.projectTitle}>{project}</span>
               </a>
               <h4 className={styles.subtitle}>

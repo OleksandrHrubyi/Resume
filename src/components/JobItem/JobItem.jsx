@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl";
 import React from "react";
 
 function JobItem() {
-  const jobKey = ["Alpari", "Interior", "InteriorHead", "Entrepreneur"];
+  const jobKey = ["Alpari", "Interior", "InteriorHead", "Entrepreneur", "WebPortTechnology"];
 
   return (
     <ul>
@@ -19,11 +19,14 @@ function JobItem() {
               </h4>
               <span className={styles.proftitle}>
                 <FormattedMessage id={`${job}.prof`} />
+               {job === "Entrepreneur" && <a className={styles.jobLink} href="http://www.alpari.ua" rel="noreferrer" target="_blank">alpari.ua</a>}
+              
                 <span className={styles.years}>
                   {" "}
                   / <FormattedMessage id={`${job}.years`} />
                 </span>
               </span>
+              <div>{job.info && <FormattedMessage id={`${job}.info`} /> } </div>
             </div>
           </li>
         );
