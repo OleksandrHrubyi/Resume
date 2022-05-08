@@ -27,11 +27,15 @@ function Main() {
             <span className="material-icons">local_phone</span>
             <span className={styles.contactText}> +38067-503-40-24</span>
           </a>
-
-          <a className={styles.contact} href="mailto:ghrubyi@ukr.net">
+         <a className={styles.contact} href="mailto:ghrubyi@ukr.net">
             <span className="material-icons">mail_outline</span>
             <span className={styles.contactText}> ghrubyi@ukr.net</span>
           </a>
+          <a className={styles.contact} target="_blank" rel="noreferrer" href="https://t.me/OleksandrHrubyi"> 
+          <span className="material-icons">telegram</span> 
+          <span className={styles.contactText}>Telegram</span>
+          </a>
+
 
           <ul className={styles.contactLinkList}>
             <li className={styles.contactsLink}>
@@ -89,15 +93,6 @@ function Main() {
               );
             })}
           </ol>
-        </section>
-
-        <section className={styles.mainInfo}>
-          <h2 className={styles.title}>
-            <FormattedMessage id="aboutTitle" />
-          </h2>
-          <span className={styles.text}>
-            <FormattedMessage id="aboutAdditional" />
-          </span>
         </section>
       </div>
     </>

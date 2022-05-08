@@ -6,7 +6,7 @@
   "hardSkillsTitle": " Hard skills",
   "ad": "Here can be your ad.",
   "experienceTitle": "Experience",
-  "experienceSubtitle": "Throughout my career, I have often thought about what to do in the future, and when I tried programming, I realized that I want to do it all my life!",
+  "experienceSubtitle": "I live in Ukraine. Due to the war in my country and the unknown economic situation, I am considering working abroad. I am currently working for a company that develops and maintains crypto exchanges. I am supporting 10 exchanges. All the information that interests you about the projects and what exactly the functionality was developed, I will tell and show at the online meeting. Thank you very much for your attention.",
   "projectTitle": "Projects",
   "aboutTitle": "About me",
   "aboutAdditional": "I am a big fan of skiing and snowboarding. I also like travel and lead a healthy lifestyle. Really want to join a cool team to create modern projects.",
@@ -42,14 +42,14 @@
   "Entrepreneur": {
     "id": 4,
     "name": "Entrepreneur",
-    "prof": "Developed and maintained the website ",
+    "prof": "Developed and maintained a home appliance store",
     "years": "since 2016"
   },
 
   "WebPortTechnology": {
     "id": 5,
     "name": "WebPortTechnology",
-    "prof": "Frontend Developer. I have been working for a company that develops and maintains cryptocurrencies. I am currently involved in the support of 10 exchanges.",
+    "prof": "Frontend Developer (Vue, Nuxt)",
     "years": "Since 03.2021"
   },
 
@@ -73,7 +73,7 @@
     "id": 12,
     "name": "School 'GO IT'",
     "prof": "Frontend Full Stack",
-    "years": "2020 - 2021",
+    "years": "",
     "defin": "Full Stack Developer"
   },
   "Barbershop": {
@@ -93,7 +93,7 @@
   "Phonebook": {
     "id": 22,
     "name": "Phonebook",
-    "link": "https://oleksandrhrubyi.github.io/goit-react-hw-09-phonebook/",
+    "link": "/",
     "defin": "REACT, REACT-ROUTER, REDUX, REST API, WEBPACK",
     "descr": "This App is a simple repository of all of your contacts and their phone numbers."
   }

@@ -9,7 +9,7 @@ function MainInfo() {
         <h1 className={styles.title}>
           <FormattedMessage id="name" />
         </h1>
-        <h2 className={styles.subtitle}>Front-end Developer</h2>
+        <h2 className={styles.subtitle}>Front-end Developer (Vue, Nuxt)</h2>
       </div>
     </>
   );

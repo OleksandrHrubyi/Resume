@@ -10,6 +10,14 @@ function Education() {
         <FormattedMessage id="educationTitle" />
       </h3>
       <EducationItem />
+      {/* <section className={styles.mainInfo}>
+          <h2 className={styles.title}>
+            <FormattedMessage id="aboutTitle" />
+          </h2>
+          <span className={styles.text}>
+            <FormattedMessage id="aboutAdditional" />
+          </span>
+        </section> */}
     </div>
   );
 }

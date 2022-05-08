@@ -15,10 +15,11 @@ function educationItem() {
               </h4>
               <span className={styles.proftitle}>
                 <FormattedMessage id={`${education}.prof`} />
-                <span className={styles.years}>
+                {education === 'university' && <span className={styles.years}>
                   {" "}
                   /<FormattedMessage id={`${education}.years`} />
-                </span>
+                </span>}
+             
               </span>
               <span className={styles.jobInfo}>
                 <FormattedMessage id={`${education}.defin`} />

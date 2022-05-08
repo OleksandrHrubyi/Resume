@@ -19,7 +19,7 @@ function JobItem() {
               </h4>
               <span className={styles.proftitle}>
                 <FormattedMessage id={`${job}.prof`} />
-               {job === "Entrepreneur" && <a className={styles.jobLink} href="http://www.alpari.ua" rel="noreferrer" target="_blank">alpari.ua</a>}
+               {/* {job === "Entrepreneur" && <a className={styles.jobLink} href="http://www.alpari.ua" rel="noreferrer" target="_blank">alpari.ua</a>} */}
               
                 <span className={styles.years}>
                   {" "}
