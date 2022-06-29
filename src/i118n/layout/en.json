@@ -6,18 +6,27 @@
   "hardSkillsTitle": " Hard skills",
   "ad": "Here can be your ad.",
   "experienceTitle": "Experience",
-  "experienceSubtitle": "I live in Ukraine. Due to the war in my country and the unknown economic situation, I am considering working abroad. I am currently working for a company that develops and maintains crypto exchanges. I am supporting 10 exchanges. All the information that interests you about the projects and what exactly the functionality was developed, I will tell and show at the online meeting. Thank you very much for your attention.",
+  "experienceSubtitle": "Hello. I am considering vacancies for the position of Frontend developer. I am currently working for a company that develops and maintains crypto exchanges. I am supporting 10 exchanges. All the information that interests you about the projects and what exactly the functionality was developed, I will tell and show at the online meeting. Thank you very much for your attention.",
   "projectTitle": "Projects",
   "aboutTitle": "About me",
   "aboutAdditional": "I am a big fan of skiing and snowboarding. I also like travel and lead a healthy lifestyle. Really want to join a cool team to create modern projects.",
   "softSkillsList": [
-    "Communication",
-    "Self-motivation",
     "Responsibility",
     "Flexibility",
+    "Self-motivation",
+    "Communication",
     "Teamwork"
   ],
-  "hardSkillsList": ["HTML", "CSS", "JS", "Vue", "Nuxt", "React", "Node.js", "GIT"],
+  "hardSkillsList": [
+    "HTML",
+    "CSS",
+    "JS",
+    "Vue",
+    "Nuxt",
+    "React",
+    "Node.js",
+    "GIT"
+  ],
   "Alpari": {
     "id": 1,
     "name": "LLC «Alpari»",
