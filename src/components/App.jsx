@@ -1,16 +1,16 @@
-import React, { Suspense } from "react";
-import ProviderWrapper from "./ProviderWrapper";
-import { AppContextProvider } from "./Context";
-import Container from "components/Container/Container";
-import Main from "./Main/Main";
-import Section from "../components/Section/Section";
-import MainInfo from "../components/MainInfo/MainInfo";
-import SectionInfo from "../components/SectionInfo/SectionInfo";
-import Experience from "../components/Experience/Experience";
-import Education from "../components/Education/Education";
+import React, { Suspense } from 'react'
+import ProviderWrapper from './ProviderWrapper'
+import { AppContextProvider } from './Context'
+import Container from '../components/container/Container'
+import Main from './Main/Main'
+import Section from '../components/Section/Section'
+import MainInfo from '../components/MainInfo/MainInfo'
+import SectionInfo from '../components/SectionInfo/SectionInfo'
+import Experience from '../components/Experience/Experience'
+import Education from '../components/Education/Education'
 // import Projects from "../components/Projects/Projects";
-import Header from "../components/Header/Header";
-import TextInfo from "../components/Textinfo/TextInfo";
+import Header from '../components/Header/Header'
+import TextInfo from '../components/Textinfo/TextInfo'
 
 export default function App() {
   return (
@@ -47,5 +47,5 @@ export default function App() {
         </Suspense>
       </AppContextProvider>
     </>
-  );
+  )
 }
