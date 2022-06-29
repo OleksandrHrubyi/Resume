@@ -1,17 +1,17 @@
-import React from "react";
-import { FormattedMessage } from "react-intl";
-import messages from "../../i118n/layout/en.json";
-import myImg from "../../image/myphoto.jpg";
-import styles from "./main.module.css";
-import gitIcon from "../../image/github.svg";
-import linkedinIcon from "../../image/linkedin.svg";
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
+import messages from '../../i118n/layout/en.json'
+import myImg from '../../image/myphoto.jpg'
+import styles from './main.module.css'
+import gitIcon from '../../image/github.svg'
+import linkedinIcon from '../../image/linkedin.svg'
 // import mailIcon from "../../image/mail.svg";
 
-import { ReactSVG } from "react-svg";
+import { ReactSVG } from 'react-svg'
 
 function Main() {
-  const softSkills = Object.keys(messages.softSkillsList);
-  const hardSkills = Object.keys(messages.hardSkillsList);
+  const softSkills = Object.keys(messages.softSkillsList)
+  const hardSkills = Object.keys(messages.hardSkillsList)
 
   return (
     <>
@@ -27,24 +27,28 @@ function Main() {
             <span className="material-icons">local_phone</span>
             <span className={styles.contactText}> +38067-503-40-24</span>
           </a>
-         <a className={styles.contact} href="mailto:ghrubyi@ukr.net">
+          <a className={styles.contact} href="mailto:ghrubyi@ukr.net">
             <span className="material-icons">mail_outline</span>
             <span className={styles.contactText}> ghrubyi@ukr.net</span>
           </a>
-          <a className={styles.contact} target="_blank" rel="noreferrer" href="https://t.me/OleksandrHrubyi"> 
-          <span className="material-icons">telegram</span> 
-          <span className={styles.contactText}>Telegram</span>
+          <a
+            className={styles.contact}
+            target="_blank"
+            rel="noreferrer"
+            href="https://t.me/OleksandrHrubyi"
+          >
+            <span className="material-icons">telegram</span>
+            <span className={styles.contactText}>Telegram</span>
           </a>
-
 
           <ul className={styles.contactLinkList}>
             <li className={styles.contactsLink}>
-              <a href="https://www.linkedin.com/in/aleksandr-grubyi-163578200/">
+              <a href="https://www.linkedin.com/in/oleksandr-hrubyi-163578200/">
                 <ReactSVG
                   src={linkedinIcon}
                   beforeInjection={(svg) => {
-                    svg.classList.add(styles.linkedinIcon);
-                    svg.setAttribute("style", "width: 50px");
+                    svg.classList.add(styles.linkedinIcon)
+                    svg.setAttribute('style', 'width: 50px')
                   }}
                 />
               </a>
@@ -54,7 +58,7 @@ function Main() {
                 <ReactSVG
                   src={gitIcon}
                   beforeInjection={(svg) => {
-                    svg.setAttribute("style", "width: 50px");
+                    svg.setAttribute('style', 'width: 50px')
                   }}
                 />
               </a>
@@ -73,13 +77,13 @@ function Main() {
                     <FormattedMessage id={`softSkillsList.${skill}`} />
                   </span>
                 </li>
-              );
+              )
             })}
           </ol>
         </section>
         <section className={styles.box}>
           <h3 className={styles.title}>
-            {" "}
+            {' '}
             <FormattedMessage id="hardSkillsTitle" />
           </h3>
           <ol className={styles.list}>
@@ -90,13 +94,13 @@ function Main() {
                     <FormattedMessage id={`hardSkillsList.${skill}`} />
                   </span>
                 </li>
-              );
+              )
             })}
           </ol>
         </section>
       </div>
     </>
-  );
+  )
 }
 
-export default Main;
+export default Main
