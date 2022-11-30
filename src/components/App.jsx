@@ -10,7 +10,7 @@ import Experience from '../components/Experience/Experience'
 import Education from '../components/Education/Education'
 // import Projects from "../components/Projects/Projects";
 import Header from '../components/Header/Header'
-//import TextInfo from '../components/Textinfo/TextInfo'
+// import TextInfo from '../components/Textinfo/TextInfo'
 
 export default function App() {
   return (

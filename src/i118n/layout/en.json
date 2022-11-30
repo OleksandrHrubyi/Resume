@@ -6,10 +6,10 @@
   "hardSkillsTitle": " Hard skills",
   "ad": "Here can be your ad.",
   "experienceTitle": "Experience",
-  "experienceSubtitle": "Hello. I am considering vacancies for the position of Frontend developer. I am currently working for a company that develops and maintains crypto exchanges. I am supporting 10 exchanges. All the information that interests you about the projects and what exactly the functionality was developed, I will tell and show at the online meeting. Thank you very much for your attention.",
+  "aboutAdditional": "Hello. I am considering vacancies for the position of Frontend developer. I am currently working for a company that develops and maintains crypto exchanges. I am supporting 10 exchanges. All the information that interests you about the projects and what exactly the functionality was developed, I will tell and show at the online meeting. Thank you very much for your attention.",
   "projectTitle": "Projects",
   "aboutTitle": "About me",
-  "aboutAdditional": "I am a big fan of skiing and snowboarding. I also like travel and lead a healthy lifestyle. Really want to join a cool team to create modern projects.",
+  "experienceSubtitle": "I am a big fan of skiing and snowboarding. I also like travel and lead a healthy lifestyle. Really want to join a cool team to create modern projects.",
   "softSkillsList": [
     "Responsibility",
     "Flexibility",
@@ -82,8 +82,22 @@
     "id": 12,
     "name": "School 'GO IT'",
     "prof": "Frontend Full Stack",
-    "years": "",
+    "years": "2020 - 2021",
     "defin": "Full Stack Developer"
+  },
+  "it2": {
+    "id": 12,
+    "name": "School 'GO IT'",
+    "prof": "Node.js",
+    "years": "2022",
+    "defin": "Full Stack Developer"
+  },
+  "it3": {
+    "id": 12,
+    "name": "Genius",
+    "prof": "Soft Skills",
+    "years": "2022",
+    "defin": "Soft Skills online course"
   },
   "Barbershop": {
     "id": 20,

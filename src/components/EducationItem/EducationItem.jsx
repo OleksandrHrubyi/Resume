@@ -2,7 +2,7 @@ import { FormattedMessage } from "react-intl";
 import styles from "./educationItem.module.css";
 
 function educationItem() {
-  const educationKey = ["university", "english", "it"];
+  const educationKey = ["university", "english", "it", "it2", "it3"];
 
   return (
     <ul className={styles.educationList}>
