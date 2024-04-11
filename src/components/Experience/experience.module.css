@@ -6,7 +6,7 @@
 }
 
 .title {
-  color: #1e90ff;
+  color: #636363;
   font-size: 30px;
   border-bottom: 3px solid #636363;
   padding: 15px 0px;
@@ -40,7 +40,7 @@
 
 .jobtitle {
   margin-bottom: 5px;
-  color: #1e90ff;
+  color: #636363;
   font-weight: 900;
   font-size: 20px;
 }
@@ -65,7 +65,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background-color: #1e90ff;
+  background-color: #636363;
   color: white;
 }
 

@@ -18,13 +18,22 @@ function JobItem() {
                 <FormattedMessage id={`${job}.name`} />
               </h4>
               <span className={styles.proftitle}>
-                <FormattedMessage id={`${job}.prof`} />
-               {/* {job === "Entrepreneur" && <a className={styles.jobLink} href="http://www.alpari.ua" rel="noreferrer" target="_blank">alpari.ua</a>} */}
-              
+                <FormattedMessage id={`${job}.prof`} /> 
                 <span className={styles.years}>
                   {" "}
                   / <FormattedMessage id={`${job}.years`} />
                 </span>
+                
+               {job === 'Entrepreneur' && <span className={styles.years} >
+                  {" "}
+                  / Javascript; React; Redux; HTML; CSS; Bootstrap.
+
+                </span>}
+                {job === 'WebPortTechnology' && <span className={styles.years} >
+                  {" "}
+                  / HTML; SCSS; Vue; Vuex; Nuxt; Node.js.
+
+                </span>}
               </span>
               <div>{job.info && <FormattedMessage id={`${job}.info`} /> } </div>
             </div>

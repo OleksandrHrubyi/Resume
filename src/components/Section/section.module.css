@@ -1,7 +1,7 @@
 .section {
   max-width: 35%;
   width: 100%;
-  background-color: #1e90ff;
+  background:  #808080d7;
 }
 
 @media screen and (max-width: 768px) {

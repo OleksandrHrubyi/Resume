@@ -6,10 +6,11 @@
   "hardSkillsTitle": " Hard skills",
   "ad": "Here can be your ad.",
   "experienceTitle": "Experience",
-  "aboutAdditional": "Hello. I am considering vacancies for the position of Frontend developer. I am currently working for a company that develops and maintains crypto exchanges. I am supporting 10 exchanges. All the information that interests you about the projects and what exactly the functionality was developed, I will tell and show at the online meeting. Thank you very much for your attention.",
+  "aboutAdditional": "Frontend developer with over 5 years of experience, specializing in creating and maintaining cryptocurrency exchanges. Over the past 3 years, I have been actively involved in developing and supporting projects in this field. I am passionate about learning and always ready for new challenges.",
   "projectTitle": "Projects",
   "aboutTitle": "About me",
   "experienceSubtitle": "I am a big fan of skiing and snowboarding. I also like travel and lead a healthy lifestyle. Really want to join a cool team to create modern projects.",
+
   "softSkillsList": [
     "Responsibility",
     "Flexibility",
@@ -20,7 +21,11 @@
   "hardSkillsList": [
     "HTML",
     "CSS",
+    "SASS",
+    "SCSS",
     "JS",
+    "WordPress",
+    "Bootstrap",
     "Vue",
     "Nuxt",
     "React",
@@ -51,14 +56,14 @@
   "Entrepreneur": {
     "id": 4,
     "name": "Entrepreneur",
-    "prof": "Developed and maintained a home appliance store",
-    "years": "since 2016"
+    "prof": "Frontend Developer",
+    "years": "2016 - 2021"
   },
 
   "WebPortTechnology": {
     "id": 5,
     "name": "WebPortTechnology",
-    "prof": "Frontend Developer (Vue, Nuxt)",
+    "prof": "Frontend Developer",
     "years": "Since 03.2021"
   },
 

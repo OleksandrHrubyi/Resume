@@ -1,11 +1,11 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 import messages from '../../i118n/layout/en.json'
-import myImg from '../../image/myphoto.jpg'
+
 import styles from './main.module.css'
 import gitIcon from '../../image/github.svg'
 import linkedinIcon from '../../image/linkedin.svg'
-// import mailIcon from "../../image/mail.svg";
+
 
 import { ReactSVG } from 'react-svg'
 
@@ -15,9 +15,7 @@ function Main() {
 
   return (
     <>
-      <div className={styles.containerImg}>
-        <img className={styles.portfolio} src={myImg} alt="portfolio" />
-      </div>
+      
       <div className={styles.mainContainer}>
         <section className={styles.contactBox}>
           <h3 className={styles.title}>
@@ -43,7 +41,7 @@ function Main() {
 
           <ul className={styles.contactLinkList}>
             <li className={styles.contactsLink}>
-              <a href="https://www.linkedin.com/in/oleksandr-hrubyi-163578200/">
+              <a href="https://www.linkedin.com/in/oleksandr-hrubyi-163578200/" target="_blank" rel='noreferrer'>
                 <ReactSVG
                   src={linkedinIcon}
                   beforeInjection={(svg) => {

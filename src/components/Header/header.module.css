@@ -9,6 +9,12 @@
   padding: 1px 7px;
   border-radius: 6px;
   border: 1px solid #636363;
+
+  &:disabled {
+    color: #a7a6a6;
+    pointer-events: none;
+    border: 1px solid #a7a6a6;
+  }
 }
 
 .btn:not(:last-child) {
